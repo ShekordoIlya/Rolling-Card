@@ -10,7 +10,7 @@ const Header = () => {
         <div>RollingCard</div>
         <ul className="flex gap-20 justify-between items-center h-full ">
           <li
-            onClick={() => {
+            onClick={(e) => {
               dispatch(setData(mainPageInfo[1].mainHeading));
             }}
             className="cursor-pointer h-full content-center hover:border-b-4 hover:border-lime-400"
