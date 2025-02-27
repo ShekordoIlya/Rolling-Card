@@ -1,5 +1,8 @@
 import { configureStore } from "@reduxjs/toolkit";
+import mainPageInfoSlice from "../mainPageInfoSlice";
 
 export default configureStore({
-  reducer: {},
+  reducer: {
+    mainPageStore: mainPageInfoSlice,
+  },
 });
